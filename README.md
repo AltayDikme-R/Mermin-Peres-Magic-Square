@@ -25,7 +25,11 @@ Once these prerequisites have been completed this repository may be cloned and t
 The documentation of the methods used in the scrips is [here](code/Documentation.md).
 
 ## Authors and Citation
-[Altay Dikme](https://www.linkedin.com/in/altay-dikme-81a21815b/) and [Nicolas Reichel]() are the authors of the scripts in this repository. If you use these scripts, please cite us. Furthermore when using qiskit, please cite the authors of the library as per the [BibTeX file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
+Altay Dikme and Nicolas Reichel are the authors of the scripts in this repository. Furthermore Gunnar Björk and Amine Laghaout
+are also authors of the paper using the results from these measurements (Titled: Measuring the Mermin-Peres magic square using an online quantum computer).
+If you use these scripts, please cite us. If you wish to site the paper please use the following [BibTeX file](Cite.bib).
+
+Furthermore when using qiskit, please cite the authors of the library as per the [Qiskit's BibTeX file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
 
 ## License 
 [Apache License 2.0](LICENSE)
