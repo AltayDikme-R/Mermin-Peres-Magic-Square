@@ -1,3 +1,8 @@
+# This script is used to measure each individual measurement in a row/column of the Mermin-Peres Magic Square.
+# The script performs one measurement per run where the ancilla qubit (q_2) is measured at the end of the script.
+# In order to perform all 9 measurements the program must be run 
+# 9 times individually, by uncommenting whichever measurement the user wishes to perform (lines 23-31).
+
 from methods import *
 
 ## Setup
@@ -7,7 +12,7 @@ IBMQ.load_accounts()
 # Create quantum register with 3 qubits
 q = QuantumRegister(3,'q')
 
-# Create a classical register with 1 bits (one for each measurement)
+# Create a classical register with 1 bits (one bit is required for each row/column as you can only measure one time per run of the script)
 c = ClassicalRegister(1)
 
 # Create a quantum circuit acting on the q register
