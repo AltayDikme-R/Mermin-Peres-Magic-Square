@@ -21,7 +21,7 @@ Furthermore an IBM Quantum Experience account is required in order to configure 
 Once these prerequisites have been completed this repository may be cloned and the scripts may be used in order to perform the measurements in the Mermin-Peres Magic Square.
 
 ## Authors and Citation
-[Altay Dikme](https://www.linkedin.com/in/altay-dikme-81a21815b/) and [Nicolas Reichel]() are the authors for the scripts in this repository. If you use these scripts, please cite us. Furthermore when using qiskit, please cite the authors of the library as per the [BibTeX file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
+[Altay Dikme](https://www.linkedin.com/in/altay-dikme-81a21815b/) and [Nicolas Reichel]() are the authors of the scripts in this repository. If you use these scripts, please cite us. Furthermore when using qiskit, please cite the authors of the library as per the [BibTeX file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
 
 ## License 
 [Apache License 2.0](LICENSE)
