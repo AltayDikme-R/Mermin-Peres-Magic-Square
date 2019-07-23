@@ -128,11 +128,15 @@ def yzinit(qc, q_0, q_1, q_meas):
     qc.h(q_0)
     qc.s(q_0)
 
+def zyinit(qc, q_0, q_1, q_meas):
+    qc.h(q_1)
+    qc.s(q_1)
+
 def negzzinit(qc,q_0,q_1,q_meas):
     qc.x(q_0)
     qc.x(q_1)
 
-    
+
 # *****************************************************************************
 # INDIVIDUAL OPERATION MEASUREMENTS
 def meas_11_12(qc, q_0, q_1, q_meas):
@@ -171,8 +175,8 @@ def meas_32(qc, q_0, q_1, q_meas):
 
 def meas_33(qc, q_0, q_1, q_meas):
     qc.cx(q_0, q_meas)
-    qc.cx(q_1, q_meas)    
-    
+    qc.cx(q_1, q_meas)
+
 # *****************************************************************************
 # ROW AND COLUMN MEASUREMENTS WITH THREE ANCILLA QUBITS
 
