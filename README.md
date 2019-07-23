@@ -25,7 +25,7 @@ Once these prerequisites have been completed this repository may be cloned and t
 The documentation of the methods used in the scrips is [here](code/Documentation.md).
 
 ## Authors and Citation
-Altay Dikme and Nicolas Reichel are the authors of the scripts in this repository. Furthermore Gunnar Björk and Amine Laghaout
+Altay Dikme and Nicolas Reichel are the authors of the scripts in this repository. Furthermore [Gunnar Björk](https://www.kth.se/profile/gbjork) and Amine Laghaout
 are also authors of the paper using the results from these measurements (Titled: Measuring the Mermin-Peres magic square using an online quantum computer).
 If you use these scripts, please cite us. If you wish to site the paper please use the following [BibTeX file](Cite.bib).
 
