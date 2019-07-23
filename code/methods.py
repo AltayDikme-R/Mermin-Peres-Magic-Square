@@ -132,6 +132,47 @@ def negzzinit(qc,q_0,q_1,q_meas):
     qc.x(q_0)
     qc.x(q_1)
 
+    
+# *****************************************************************************
+# INDIVIDUAL OPERATION MEASUREMENTS
+def meas_11_12(qc, q_0, q_1, q_meas):
+    qc.h(q_0)
+    qc.cx(q_0,q_meas)
+    qc.cx(q_1,q_meas)
+
+def meas_13(qc, q_0, q_1, q_meas):
+    qc.h(q_0)
+    qc.h(q_1)
+    qc.cx(q_0,q_meas)
+    qc.cx(q_1,q_meas)
+
+def meas_21_22(qc, q_0, q_1, q_meas):
+    qc.u2(0, np.pi/2, q_0)
+    qc.cx(q_0,q_meas)
+    qc.cx(q_1,q_meas)
+
+def meas_23(qc, q_0, q_1, q_meas):
+    qc.u2(0, np.pi/2, q_0)
+    qc.u2(0, np.pi/2, q_1)
+    qc.cx(q_0,q_meas)
+    qc.cx(q_1,q_meas)
+
+def meas_31(qc, q_0, q_1, q_meas):
+    qc.h(q_0)
+    qc.u2(0, np.pi/2, q_1)
+    qc.cx(q_0, q_meas)
+    qc.cx(q_1,q_meas)
+
+def meas_32(qc, q_0, q_1, q_meas):
+    qc.u2(0, np.pi/2, q_0)
+    qc.h(q_1)
+    qc.cx(q_0, q_meas)
+    qc.cx(q_1, q_meas)
+
+def meas_33(qc, q_0, q_1, q_meas):
+    qc.cx(q_0, q_meas)
+    qc.cx(q_1, q_meas)    
+    
 # *****************************************************************************
 # ROW AND COLUMN MEASUREMENTS WITH THREE ANCILLA QUBITS
 
